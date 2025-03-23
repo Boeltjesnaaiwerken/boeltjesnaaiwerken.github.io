@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boeltjesnaaiwerken - Unieke handgemaakte tassen">
+    <title>Boeltjesnaaiwerken</title>
+    <style>
+        /* Basis CSS voor de website */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2e0e0; /* pastelroze achtergrondkleur */
+            color: #4a4a4a; /* Donkergrijze tekst */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f4d6a0; /* Beige achtergrond voor header */
+            text-align: center;
+            padding: 40px 0;
+            color: #4a4a4a;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        .tassen-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .tas {
+            background-color: #fff;
+            border: 2px solid #f4d6a0;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .tas img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .tas h2 {
+            font-size: 1.5em;
+            color: #f4d6a0;
+        }
+
+        .tas p {
+            font-size: 1.1em;
+            color: #4a4a4a;
+        }
+
+        .contact {
+            text-align: center;
+            background-color: #f4d6a0;
+            padding: 30px;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #f4a6a6;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f2e0e0;
+            color: #4a4a4a;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Sectie -->
+    <header>
+        <h1>Boeltjesnaaiwerken</h1>
+        <p>Unieke, handgemaakte tassen voor jou!</p>
+    </header>
+
+    <!-- Tassen Sectie -->
+    <div class="tassen-container">
+        <!-- Tas 1 -->
+        <div class="tas">
+            <img src="tas1.jpg" alt="Pastelroze Tas">
+            <h2>Pastelroze Tas</h2>
+            <p>€12,75 - Handgemaakt met liefde. Perfect voor elke gelegenheid.</p>
+        </div>
+        <!-- Tas 2 -->
+        <div class="tas">
+            <img src="tas2.jpg" alt="Beige Tas">
+            <h2>Beige Tas</h2>
+            <p>€12,75 - Een stijlvolle tas die bij alles past.</p>
+        </div>
+        <!-- Tas 3 -->
+        <div class="tas">
+            <img src="tas3.jpg" alt="Gouden Accenten Tas">
+            <h2>Tas met Gouden Accenten</h2>
+            <p>€12,75 - De perfecte combinatie van elegantie en functionaliteit.</p>
+        </div>
+    </div>
+
+    <!-- Contact Sectie -->
+    <div class="contact">
+        <p>Wil je een tas bestellen? Stuur me een DM op Instagram:</p>
+        <a href="https://www.instagram.com/boeltjesnaaiwerken" target="_blank">Stuur een DM op Instagram</a>
+    </div>
+
+    <!-- Footer Sectie -->
+    <footer>
+        <p>&copy; 2025 Boeltjesnaaiwerken. Alle rechten voorbehouden.</p>
+    </footer>
+
+</body>
+</html>
